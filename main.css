@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Avenir, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #d3b9d3;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 30px 0px;
+}
+
+nav a:hover{
+    color: gray;
+    border-bottom: 2px solid purple;
+}
+/*carrousel*/
+.slider{
+    width: 100%;
+    height: 700px;
+    margin: 2px auto 0;
+    position: relative;
+}
+.slides{
+    width: 100%;
+    height: 100%;
+}
+.slides img{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+   opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+.commandes{
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.commandes span{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #d3b9d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.commandes span:nth-child(1){
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+}
+.commandes span:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+}
+.cercles {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cercle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #333;
+}
+.active-cercle{
+    background: rgb(58,36,156);
+}
+.active{
+    opacity: 1!important;
+}
