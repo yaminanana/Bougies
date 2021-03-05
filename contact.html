@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,52 +7,55 @@
     <link rel="stylesheet" href="main.css">
     <title>Bougies</title>
 </head>
-
 <body>
     <nav>
         <ul>
-            <li><a href="#">Accueil</a></li>
+            <li><a href="index.html">Accueil</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="#">Galerie</a></li>
         </ul>
     </nav>
+    <section>
+        <div id="contact" class="scroll-panel">
+            <h3>Nous contacter</h3>
+            <hr>
+        </div>
+        <div id="contenercontact">
 
-    <section class="slider">
-        <div class="slides">
-            <img src="images/ballon.jpg" class="active">
-            <img src="images/arttable.jpg">
-            <img src="images/noel.jpg">
+            <form method="post">
+                <div>
+                    <label for="objet"></label>
+                   <!-- <input type="text" id="objet" name="objet" placeholder="Objet" required />-->
+<select name="Objet"aria-placeholder="Objet">
+    <optgroup  >
+        <option value="">Choississez</option>
+        <option value="livraison">Livraisons</option>
+        <option value="commandes">Commandes</option>
+        <option value="retour">Retour</option>
+        <option value="echange">Echanges</option>
+    </optgroup>
+</select>
+                </div>
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" name="user_name" placeholder="Nom" required />
+                </div>
+                        <div>
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="user_email" placeholder="Votre email" required />
+                        </div>
+                        <div>
+                            <label for="msg"></label>
+                            <textarea id="msg" name="user_message" placeholder="Votre message"></textarea>
+                        </div>
+                        <div class="button">
+                            <button onclick="sendMail()"  class="btn">Envoyer</button>
+                        </div>
+            </form>
+
         </div>
-        <div class="commandes">
-            <span class="left">&#139;</span>
-            <span class="right">&#155;</span>
-        </div>
-        <div class="cercles">
-            <button data-clic="1" class="cercle active-cercle"></button>
-            <button data-clic="2" class="cercle"></button>
-            <button data-clic="3" class="cercle"></button>
-        </div>
+
     </section>
-    <section class="conteneur-grid">
-        <a href="#">
-            <img src="images/decoration.jpg" id="decorer">
-        </a>
-        <p>Envie de personnaliser votre interieur ? Nous vous proposons d'allier vos rêves
-            à la réalité avec notre gamme de bougies à décorer vous même en laissant libre
-            court à votre imagination ou en nous faisant part de vos envies que nos ateliers
-            mettront en forme pour vous.
-        </p>
-        <a href="#" id="offrir">
-            <img src="images/offrir.jpg">
-        </a>
-        <p>Le plaisir d'offrir et de faire plaisir à votre entourage avec nos bougies sublimes</br>
-            et personnalisables.Osez surprendre vos proches avec ce cadeau lumineux et chaleureux.
-            Vous voulez choisir un cadeau qui fera mouche à chaque coup ? Laissez vous tenter et
-            explorer nos catalogues produits.
-        </p>
-
-    </section>
-
     <footer>
         <div id="horaire">
             <h3>Horaires</h3>
@@ -91,8 +93,6 @@
         </div>
     </div>
     </footer>
-
     <script src="main.js"></script>
 </body>
-
 </html>

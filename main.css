@@ -145,9 +145,127 @@ nav a:hover{
 footer{
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
-    height: 400px;
-    padding: 10px;
+    height: 450px;
     background-color: #130A0A;
     color: white;
-    line-height: 20px;
+    line-height: 25px;
+    
+}
+
+footer h3{
+    position: relative;
+    bottom: 20px;
+}
+#horaire{
+    position: relative;
+    left: 100px;
+    top: 100px;
+    
+}
+#horaire ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#contact{
+    position: relative;
+    top: 100px;
+}
+
+#localisation p{
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
+#localisation h3{
+    position: relative;
+    top: 70px;
+    right: 200px;
+}
+.link img{
+    
+    height: 50px;
+    width: 50px;
+   /* position: relative;
+    left: 600px;
+    bottom: 100px;*/
+}
+.linkedin{
+    position: relative;
+    left: 620px;
+    bottom: 180px;
+}
+.github{
+    position: relative;
+    left: 550px;
+    bottom: 125px;
+}
+
+/*contact*/
+
+p {
+    text-align: justify;
+}
+
+#contenercontact {
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px;
+    margin: 0 0 50px 0;
+    transition: all .4s ease-in-out;
+    background-color: #D6CFCF;
+    
+}
+
+
+
+form {
+    margin: auto;
+    
+    
+}
+
+#msg {
+    height: 200px;
+    width: 800px;
+    margin: 3px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+}
+
+.btn {
+    padding: 8px 15px;
+    margin: 3px;
+    font-size: 16px;
+    width: 835px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: #999999;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    margin: 3px;
+    width: 800px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+}
+select{
+    margin: 3px;
+    width: 835px;
+    padding: 8px 15px;
+    border-radius: 5px;
 }
