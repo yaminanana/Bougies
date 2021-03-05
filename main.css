@@ -104,3 +104,50 @@ nav a:hover{
 .active{
     opacity: 1!important;
 }
+
+/*Les services*/
+
+.conteneur-grid{
+    display: grid;
+    grid-template-columns: 3fr 3fr; 
+    grid-auto-rows: 500px;
+    margin: 200px;
+    
+}
+
+#decorer{
+    width: 600px;
+    height: 400px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    
+}
+
+#offrir{
+    width: 600px;
+    height: 400px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    
+}
+.conteneur-grid p {
+    position: relative;
+    top: 150px;
+    padding: 10px;
+}
+
+.conteneur-grid img{
+    width: 600px;
+    height: 400px;
+}
+/*footer*/
+
+footer{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    height: 400px;
+    padding: 10px;
+    background-color: #130A0A;
+    color: white;
+    line-height: 20px;
+}
