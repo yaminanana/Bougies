@@ -72,3 +72,10 @@ cercles.forEach(cercle => {
         slides[index].classList.add('active');
     })
 })
+
+/*animation image accueil*/
+$(".hover").mouseleave(
+    function () {
+      $(this).removeClass("hover");
+    }
+  );

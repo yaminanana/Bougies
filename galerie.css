@@ -1,0 +1,54 @@
+/*galerie*/
+
+#tribody{
+    height: auto;
+}
+
+section{
+    height: auto;
+}
+
+img{
+    height: 350px;
+    width: 350px;
+}
+#conteneurImg{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px 20px;
+    position: relative;
+   
+    background-color: #DEF0FA;
+    margin: 10px;
+}
+
+#conteneurImg1{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px 20px;
+    position: relative;
+    
+    background-color: #E5E5E5;
+    margin: 10px;
+}
+#conteneurImg2{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 20px 20px;
+    position: relative;
+    background-color: #d3b9d3;
+    margin: 10px;
+}
+
+section div img {
+    width: 350px; /* largeur de l'image */
+    height: 350px; /* hauteur de l'image */
+    -webkit-transition: .3s ease-in-out !important; 
+    transition: .3s ease-in-out !important;
+}
+ section div:hover img {
+    width: 300px; /* on affiche l'image au carré */
+    height: 300px;
+    border-radius: 50%; 
+    padding: 20px;
+}
