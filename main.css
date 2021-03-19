@@ -501,7 +501,7 @@ select {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
     .slider {
         width: 100%;
         height: auto;
@@ -701,5 +701,29 @@ height: 200px;
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
         display: none;
+    }
+    /*footer*/
+    #localisation iframe{
+        display: none;
+    }
+    #localisation{
+        position: relative;
+        left: 510px;
+        bottom: 80px;
+        
+    }
+    .linkedin{
+        position: relative;
+        left: 10px;
+        bottom: 130px;
+    }
+    .github{
+        position: relative;
+        left: 80px;
+        bottom: 73px;
+    }
+    footer{
+        display: grid;
+    grid-template-columns: 3fr 3fr ;
     }
 }
