@@ -321,10 +321,22 @@ nav a:hover {
     right: 500px;
     top: 100px;
 }
+#imgconseil{
+    height: 100px;
+    position: absolute;
+    left: 630px;
+    top: -80px;
+}
 #paiement{
     position: relative;
     right: 150px;
     top: 50px;
+}
+#imgpaiement{
+    height: 120px;
+    position: absolute;
+    left: 650px;
+    top: -100px;
 }
 
 #retour{
@@ -332,12 +344,23 @@ nav a:hover {
     left: 260px;
     bottom: 10px;
 }
+#imgretour{
+    height: 100px;
+    position: absolute;
+    left: 630px;
+    top: -80px;
+}
 #livraison{
     position: relative;
     left: 650px;
     bottom: 70px;
 }
-
+#imglivraison{
+    height: 150px;
+    position: absolute;
+    left: 650px;
+    bottom: -10px;
+}
 
 /*footer*/
 
