@@ -49,17 +49,17 @@ nav a:hover {
 #bienvenue h2 {
     font-size: 36px;
     color: rgba(172, 164, 175, 0.883);
-    position: relative;
-    left: 600px;
+    position: absolute;
+    left: 400px;
     top: 50px;
 }
 
 #bienvenue span {
     font-size: 20px;
     color: rgba(172, 164, 175, 0.883);
-    position: relative;
-    left: 650px;
-    top: 50px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
 }
 
 /*carrousel*/
@@ -296,6 +296,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     height: 250px;
+    width: 100%;
     position: relative;
     top: -150px;
     background-color: rgba(240, 233, 233, 0.979);
@@ -304,62 +305,78 @@ nav a:hover {
 #nosservices h3 {
     font-size: 26px;
     color: rgba(172, 164, 175, 0.883);
-    position: relative;
-    left: 600px;
-    top: 50px;
+    position: absolute;
+    left: 550px;
+    top: 80px;
 }
 
 #nosservices span {
     font-size: 20px;
     color: rgba(172, 164, 175, 0.883);
-    position: relative;
-    left: 600px;
-    top: 50px;
+    position: absolute;
+    left: 550px;
+    top: 130px;
 }
 #conseil{
-    position: relative;
-    right: 500px;
-    top: 100px;
+    position: absolute;
+    left:  -400px;
+    top: 10px;
 }
 #imgconseil{
-    height: 100px;
+    height: 50px;
     position: absolute;
-    left: 630px;
-    top: -80px;
+    left: 500px;
+    top: 0px;
+}
+
+#conseil h3{
+    font-size: 26px;
+    color: rgba(172, 164, 175, 0.883);
+    position: absolute;
+    left: 450px;
+    top: 80px;
+}
+
+#conseil span{
+    font-size: 20px;
+    color: rgba(172, 164, 175, 0.883);
+    position: absolute;
+    left: 450px;
+    top: 180px;
 }
 #paiement{
-    position: relative;
-    right: 150px;
-    top: 50px;
+    position: absolute;
+    left: -250px;
+    top: 10px;
 }
 #imgpaiement{
-    height: 120px;
+    height: 50px;
     position: absolute;
     left: 650px;
-    top: -100px;
+    top: 0px;
 }
 
 #retour{
-    position: relative;
-    left: 260px;
-    bottom: 10px;
+    position: absolute;
+    left: 170px;
+    top: 10px;
 }
 #imgretour{
-    height: 100px;
+    height: 50px;
     position: absolute;
-    left: 630px;
-    top: -80px;
+    left: 500px;
+    top: 0px;
 }
 #livraison{
-    position: relative;
-    left: 650px;
-    bottom: 70px;
+    position: absolute;
+    left: 350px;
+    top: 10px;
 }
 #imglivraison{
-    height: 150px;
+    height: 50px;
     position: absolute;
     left: 650px;
-    bottom: -10px;
+    top: 0px;
 }
 
 /*footer*/
@@ -374,12 +391,12 @@ footer {
 }
 
 footer h3 {
-    position: relative;
+    
     bottom: 20px;
 }
 
 #horaire {
-    position: relative;
+    
     left: 100px;
     top: 100px;
 }
@@ -390,41 +407,23 @@ footer h3 {
 }
 
 #contact {
-    position: relative;
+    
     top: 100px;
 }
 
 #localisation p {
     position: relative;
-    top: 100px;
-    right: 200px;
+    top: 210px;
+    right: 398px;
 }
 
 #localisation h3 {
     position: relative;
-    top: 70px;
-    right: 200px;
+    top: 190px;
+    right: 398px;
 }
 
-.link img {
-    height: 50px;
-    width: 50px;
-    /* position: relative;
-    left: 600px;
-    bottom: 100px;*/
-}
 
-.linkedin {
-    position: relative;
-    left: 610px;
-    bottom: 180px;
-}
-
-.github {
-    position: relative;
-    left: 530px;
-    bottom: 125px;
-}
 
 /*contact*/
 
